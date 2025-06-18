@@ -184,8 +184,12 @@
 <style>
   @media (max-width: 767.98px) {
     .custom-mobile-width {
-      max-width: 90%;  /* Adjust width as needed */
-      margin: 0 auto;  /* Center the box */
+      max-width: 90%;
+      margin: 0 auto;
+    }
+
+    .responsive-img {
+      height: auto !important;  /* Let image scale naturally */
     }
   }
 </style>
@@ -197,7 +201,7 @@
       <div class="border rounded overflow-hidden shadow-sm position-relative">
         <img
           src="WhatsApp Image 2025-06-18 at 09.19.29_83d2f2a0.jpg"
-          class="img-fluid w-100"
+          class="img-fluid w-100 responsive-img"
           style="height: 650px; object-fit: cover;"
           alt="Founder Image"
         />
@@ -209,7 +213,7 @@
       <div class="border rounded overflow-hidden shadow-sm position-relative">
         <img
           src="WhatsApp Image 2025-06-18 at 09.19.31_d7f0815b.jpg"
-          class="img-fluid w-100"
+          class="img-fluid w-100 responsive-img"
           style="height: 650px; object-fit: cover;"
           alt="Co-Founder Image"
         />
